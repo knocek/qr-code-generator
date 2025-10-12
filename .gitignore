@@ -1,0 +1,130 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.Python
+
+# Virtualenvs
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# pip / wheel
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Installer / packaging
+*.egg
+*.whl
+*.egg-info/
+*.manifest
+*.spec
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+build/
+dist/
+*.manifest
+*.spec
+
+# Testing / coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Type checkers
+.mypy_cache/
+.pyre/
+.pytype/
+
+# IDEs / editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# JetBrains
+*.iml
+/.gradle/
+
+# VS/Visual Studio
+.vs/
+*.vcxproj*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets / env files
+.env
+.env.*
+secrets.yml
+
+# Python byte-compiled / C extensions
+*.so
+*.dll
+*.pyd
+
+# C/C++ build artifacts (if you ever build native extensions)
+*.o
+*.obj
+*.lo
+*.la
+*.suo
+*.pdb
+
+# --- Qt / Qt6 specific ---
+# Generated QML/Qt cache
+*.qmlc
+
+# Qt Creator / qmake
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+
+# moc / rcc / uic generated files (C/C++) - often not used in pure Python projects
+moc_*
+qrc_*
+uic_*
+
+# Resource/compiler outputs
+*.rcc
+
+# CMake build (if you use CMake for native parts)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# PySide/PyQt specific caches or generated files
+# if you generate python resources/ui files they may be committed intentionally
+# add ui_*.py or resources_*.py here only if you generate them locally and don't want to commit
+*.pyside6uic
+
+# --- Images / outputs ---
+# Ignoruj wygenerowane obrazy/artefakty aplikacji jeśli nie chcesz ich w repo
+# np. katalog z wygenerowanymi kodami QR
+output/
+out/
+build_artifacts/
+
+# Local packaging / egg caches
+eggs/
+.cache/
+
+# Logs
+*.log
+
+# End of file
+
