@@ -325,14 +325,14 @@ background-color: rgb(30, 30, 30)</string>
                 <item row="2" column="0">
                  <widget class="QLabel" name="errorCorrectionLabel">
                   <property name="text">
-                   <string>errorCorrection</string>
+                   <string>Error correction</string>
                   </property>
                  </widget>
                 </item>
                 <item row="1" column="0">
                  <widget class="QLabel" name="colorLabel">
                   <property name="text">
-                   <string>color</string>
+                   <string>Colors</string>
                   </property>
                  </widget>
                 </item>
@@ -368,7 +368,7 @@ background-color: rgb(30, 30, 30)</string>
                 <item row="0" column="0">
                  <widget class="QLabel" name="boxSizeLabel">
                   <property name="text">
-                   <string>boxSize</string>
+                   <string>Box size</string>
                   </property>
                  </widget>
                 </item>
