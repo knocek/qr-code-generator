@@ -1,5 +1,5 @@
 from PySide6 import QtWidgets
-from ui_generate_and_decode import Ui_MainWindow
+from src.ui.ui_generate_and_decode import Ui_MainWindow
 
 class MainWindow(QtWidgets.QMainWindow):
     def __init__(self):
