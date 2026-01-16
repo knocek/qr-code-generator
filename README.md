@@ -122,7 +122,7 @@ After successful build, executable file will be avaible in: `dist/QR Code Genera
 - pre-commit hooks
 - Ruff / formatting checks
 - Virtual environment based setup
-- Manual and pytest testing - see the [TESTING](TESTING) file for details
+- Manual and pytest testing - see the [TESTING](TESTING.md) file for details
 
 ## 👩‍💻 Author & license
 
