@@ -32,6 +32,7 @@ This was chosen over `pyzbar` to avoid external native dependencies, which simpl
 **Limitations:** Only single QR code detection per image is supported.
 
 ## 📦 Requirements - check `requirements.txt` file
+
 - Python 3.10-3.12 [(download Python)](https://www.python.org/)
 - PySide6, qrcode[pil,svg], Pillow, opencv-python, pyzbar
 
@@ -54,6 +55,7 @@ cd qr-code-generator
 This is recommended and tested method for local development and building executable.
 
 #### Install
+
 ```bash
 # create a virtual enviroment
 python -m venv .venv
@@ -93,6 +95,7 @@ python -m PyInstaller
 After successful build, executable file will be avaible in: `dist/QR Code Generator.exe`
 
 **If `pyinstaller` is not recognized as the name of a cmdlet, function,...:**
+
 1. Check how you wrote `pyinstaller`. It should be: `PyInstaller`
 2. Check if PyInstaller is on your computer using command: 'pip list'
 3. Edit your system paths: add user path with python scripts and restart PowerShell.
@@ -119,6 +122,7 @@ After successful build, executable file will be avaible in: `dist/QR Code Genera
 - pre-commit hooks
 - Ruff / formatting checks
 - Virtual environment based setup
+- Manual and pytest testing - see the [TESTING](TESTING) file for details
 
 ## 👩‍💻 Author & license
 
