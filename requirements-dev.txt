@@ -1,0 +1,2 @@
+pyinstaller~=6.8
+pre-commit~=2.20

@@ -1,14 +1,21 @@
-from PySide6 import QtWidgets
-from src.ui.ui_generate_and_decode import Ui_MainWindow
+# src/main.py
+import sys
+from PySide6.QtWidgets import QApplication
+from PySide6.QtGui import QIcon
+from src.main_window import MainWindow
+from pathlib import Path
 
-class MainWindow(QtWidgets.QMainWindow):
-    def __init__(self):
-        super().__init__()
-        self.ui = Ui_MainWindow()
-        self.ui.setupUi(self)
+BASE_DIR = Path(__file__).resolve().parent.parent
+ICON_PATH = BASE_DIR / "assets" / "icons" / "app-icon.png"
 
-if __name__ == "__main__":
-    app = QtWidgets.QApplication([])
+
+def main():
+    app = QApplication(sys.argv)
+    app.setWindowIcon(QIcon(str(ICON_PATH)))
     window = MainWindow()
     window.show()
-    app.exec()
+    sys.exit(app.exec())
+
+
+if __name__ == "__main__":
+    main()
